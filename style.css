@@ -62,13 +62,14 @@ nav ul {
     margin-right: 1rem;
 }
 
-nav ul li {
+nav ul li a{
     color: #fff;
     margin-right: 1.5rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
-nav ul li:hover{
+nav ul li a:hover{
     transform: translateY(-5px);
     transition: all 0.2s;
     font-weight: bold;
@@ -161,7 +162,7 @@ header {
         flex-direction: column;
     }
 
-    nav ul li {
+    nav ul li{
         text-align: center;
         padding: 0.8rem;
         font-size: 1rem;
